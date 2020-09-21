@@ -11,6 +11,7 @@ public class Comment {
 
         private boolean canCommentTheComment;
         private boolean isLikedComment;
+        private boolean canBePostedByCurrentUser;
         private boolean canOpenedByCurrentUser;
         private boolean canClosedByCurrentUser;
         private boolean canPostByGroup;

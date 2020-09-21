@@ -6,5 +6,6 @@ public class Like {
 
     private boolean canBeLikedByCurrentUser;
     private boolean isLikedByCurrentUser;
+    private boolean canBePublishedByCurrentUser;
 
 }

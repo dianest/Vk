@@ -7,15 +7,15 @@ public class Post {
     private String authorName;
     private String urlAuthorLogo;
     private String copyright;
-    private String type;
+    private String type;//post_type
     private String geoCoordinates;
     private String geoTypeOfThePlace;
     private String wherePostPublished;
 
-    private int authorId;
+    private int authorId; //from_id
     private int id;
     private int ownerId;
-    private int adminId;
+    private int adminId; // created_by
     private int date;
     private int time;
     private int replyOwnerId;
@@ -28,6 +28,7 @@ public class Post {
     private int attachmentsInThePOstCount;
     private int signerId;
     private int postPonedId;
+    private int friendsOnly;
 
     private boolean isRepostOfThePost;
     private boolean isClosedPost;
